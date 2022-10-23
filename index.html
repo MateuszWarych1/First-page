@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4856/4856718.png" type="image/x-icon">
+
+    <!-- skrypt do FONT AWESOME (do niedzieli 23.10) -->
+    <script src="https://kit.fontawesome.com/a28abe83fb.js" crossorigin="anonymous"></script>
+
+    <!-- linki do fontów -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- link do css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nagłówek strony -->
+    <header>
+            <h1>Witaj na mojej pierwszej stronie</h1>
+    </header>
+    <!-- nawigacja -->
+    <nav>
+        <ul>
+            <li>
+                <a href="https://www.google.com" target="_blank" title="Link do Google">Google</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" title="Link do Youtube">Youtube</a>
+            </li>
+            <li>
+                <a href="form.html" target="_blank" title="Link do formularza">Fomularz testowy</a>
+            </li>
+            <li>
+                <a href="#gallery">Galeria zdjęć</a>
+            </li>
+            <li>
+                <a href="#lists">Listy</a>
+            </li>
+            <li>
+                <a href="#footer">Stopka</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- część główna -->
+    <main>
+        <section class="science">
+            <h5>Wzory fizyczne i chemiczne</h5>
+            <p>Wzór na energię: E=mc<sup>2</sup></p>
+            <p>Wzór chemiczny wody: H<sub>2</sub>O</p>
+        </section>
+        <!-- Galeria zdjęć -->
+        <section id="gallery">
+            <h5>Galeria zdjęć</h5>
+            <img src="./files/fall.jpg"
+                alt="Jesień" title="Jesień" />
+            <img src="./files/fall2.jpg"
+                alt="Jesień2" title="Jesień2" />
+        </section>
+        <section id="lists">
+            <h3>Listy</h3>
+            <h5>Lista zakupów</h5>
+            <ul>
+                <li>warzywa</li>
+                <li>owoce</li>
+                <li>chemia</li>
+                <li>słodycze</li>
+                <li>prasa</li>
+            </ul>
+
+            <h5>Wydarzenia historyczne</h5>
+            <ol>
+                <li>Powstanie Egiptu</li>
+                <li>Powstanie Grecji</li>
+                <li>Powstanie Rzymu</li>
+                <li>Powstanie Polski</li>
+            </ol>
+        </section>
+        <section class="poster">
+            <h4>Wiadomości</h4>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti ea dolorum molestiae maxime, quis
+                    quaerat modi aspernatur commodi, tenetur quam cumque accusamus quisquam, quas provident. Consequatur
+                    quasi dolores eveniet velit.</p>
+            </div>
+        </section>
+        <p class="motto">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eveniet, ab iure inventore saepe, magni
+            maiores repellendus veniam ratione, cum veritatis culpa odit! Numquam explicabo fuga quos sapiente
+            consequuntur. Alias.
+        </p>
+    </main>
+    <!-- stopka -->
+    <footer>
+        <section id="footer">
+            <p>Projekt <strong>WSB 2022</strong></p>
+            <p>Autor: <span>Mateusz Warych</span> &copy;</p>
+            <div>
+                <p>Obserwuj nas na:
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </p>
+            </div>
+            <p>Napisz do nas maila:
+                <a href="mailto:mateusz_warych@wp.pl">Napisz do mnie maila</a>
+            </p>
+        </section>
+    </footer>
+</body>
+
+</html>
