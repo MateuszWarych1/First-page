@@ -17,17 +17,65 @@ header {
     width: 100%;
     height: 60vh;
     font-size: 15px;
-    background: url('./files/coffee.jpg');
+    background: url('./files/restaurant.jpg');
+    background-size: 100% 100%;
+    /* wpasowuje zdjęcie do rozmarów okna*/
+    background-attachment: fixed;
+}
+
+header h1{
+    font-size: 30px;
+    color: darkgrey;
+    padding: 50px;
+}
+
+/* style dla nav */
+nav {
+    background-color: rgba(136, 94, 4, 0.603);
+}
+
+nav div {
+    padding: 20px;
+}
+
+/* flex jako dodatek */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    background: url('./files/restaurant.jpg');
     background-color: black;
     background-size: 100% 100%;
     /* wpasowuje zdjęcie do rozmarów okna*/
     background-attachment: fixed;
 }
 
-main {
-    background: url('./files/coffee.jpg');
-    background-color: black;
-    background-size: 100% 100%;
-    /* wpasowuje zdjęcie do rozmarów okna*/
-    background-attachment: fixed;
+.about {
+    font-size: 20px;
+    color: darkgrey;
+    padding: 50px;
+}
+
+/* style dla elementów footer */
+footer {
+    background-color: rgba(136, 94, 4, 0.603);
+    padding: 15px;
+}
+
+/* określone właściwości do każdego elementu footer */
+footer * {
+    color: black;
+}
+
+i {
+    font-size: 20px;
+    color: black;
 }
